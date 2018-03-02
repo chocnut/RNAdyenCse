@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   RNAdyenCse
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://github.com/chocnut/RNAdyenCse"
   s.license      = "MIT"
   s.author             = { "author" => "pindiola@gmail.com" }
   s.platform     = :ios, "7.0"
