@@ -14,7 +14,5 @@ Pod::Spec.new do |s|
   s.source_files  = "RNAdyenCse/**/*.{h,m}"
   s.requires_arc = true
 
-  s.dependency "React"
   s.dependency "AdyenCSE"
-
 end

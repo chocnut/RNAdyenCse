@@ -1,0 +1,25 @@
+{
+  "name": "RNAdyenCse",
+  "version": "1.0.0",
+  "summary": "RNAdyenCse",
+  "description": "RNAdyenCse",
+  "homepage": "https://github.com/chocnut/RNAdyenCse",
+  "license": "MIT",
+  "authors": {
+    "author": "pindiola@gmail.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/chocnut/RNAdyenCse.git",
+    "tag": "master"
+  },
+  "source_files": "RNAdyenCse/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "AdyenCSE": [
+
+    ]
+  }
+}

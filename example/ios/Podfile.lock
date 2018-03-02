@@ -1,0 +1,19 @@
+PODS:
+  - AdyenCSE (1.1.1)
+  - RNAdyenCse (1.0.0):
+    - AdyenCSE
+
+DEPENDENCIES:
+  - RNAdyenCse (from `../node_modules/react-native-adyen-cse/ios/RNAdyenCse.podspec`)
+
+EXTERNAL SOURCES:
+  RNAdyenCse:
+    :podspec: ../node_modules/react-native-adyen-cse/ios/RNAdyenCse.podspec
+
+SPEC CHECKSUMS:
+  AdyenCSE: c52eb5ef89bd98b8d0aa1214352fe026979ace1a
+  RNAdyenCse: 0116e5b9d9e7421cd80a97b8235ffa3eae076237
+
+PODFILE CHECKSUM: 0373923e6abf332d2f86d570d693ba25e36abb51
+
+COCOAPODS: 1.4.0

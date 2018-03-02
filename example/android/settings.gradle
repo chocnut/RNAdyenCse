@@ -1,5 +1,19 @@
 rootProject.name = 'example'
 include ':react-native-adyen-cse'
 project(':react-native-adyen-cse').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-adyen-cse/android')
+include ':react-native-adyen-cse'
+project(':react-native-adyen-cse').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-adyen-cse/android')
+include ':react-native-adyen-cse'
+project(':react-native-adyen-cse').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-adyen-cse/android')
+include ':react-native-adyen-cse'
+project(':react-native-adyen-cse').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-adyen-cse/android')
+include ':react-native-adyen-cse'
+project(':react-native-adyen-cse').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-adyen-cse/android')
+include ':react-native-adyen-cse'
+project(':react-native-adyen-cse').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-adyen-cse/android')
+include ':react-native-adyen-cse'
+project(':react-native-adyen-cse').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-adyen-cse/android')
+include ':react-native-adyen-cse'
+project(':react-native-adyen-cse').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-adyen-cse/android')
 
 include ':app'
