@@ -33,21 +33,24 @@
   	```
       compile project(':react-native-adyen-cse')
   	```
-
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNAdyenCse.sln` in `node_modules/react-native-adyen-cse/windows/RNAdyenCse.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Adyen.Cse.RNAdyenCse;` to the usings at the top of the file
-  - Add `new RNAdyenCsePackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
-
 ## Usage
 ```javascript
-import RNAdyenCse from 'react-native-adyen-cse';
+import {encrypt} from 'react-native-adyen-cse'
 
-// TODO: What to do with the module?
-RNAdyenCse;
-```
-  
+const publicKey = '1001|...'
+async function testCardDetailsEncrypt() {
+  const card = {
+    holderName: 'John Doe',
+    number: '4111111111111111',
+    cvc: '737',
+    expiryMonth: '08',
+    expiryYear: '2018',
+  }
+
+  const token = await encrypt(card, publicKey)
+  return token
+}
+
+testCardDetailsEncrypt().then(encryptedCard =>
+  this.setState({encryptedCard}),
+)
