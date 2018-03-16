@@ -54,3 +54,11 @@ async function testCardDetailsEncrypt() {
 testCardDetailsEncrypt().then(encryptedCard =>
   this.setState({encryptedCard}),
 )
+
+### Screenshot
+
+iOS
+![](https://github.com/chocnut/RNAdyenCse/blob/master/example/images/ios.gif)
+
+Android
+![](https://github.com/chocnut/RNAdyenCse/blob/master/example/images/android.gif)
