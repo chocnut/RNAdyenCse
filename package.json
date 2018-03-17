@@ -1,6 +1,6 @@
 {
   "name": "react-native-adyen-cse",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Native Adyen CSE",
   "main": "index.js",
   "scripts": {
