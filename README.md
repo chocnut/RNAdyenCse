@@ -33,7 +33,7 @@
   	```
       compile project(':react-native-adyen-cse')
   	```
-## Usage
+### Usage
 ```javascript
 import {encrypt} from 'react-native-adyen-cse'
 
@@ -54,11 +54,15 @@ async function testCardDetailsEncrypt() {
 testCardDetailsEncrypt().then(encryptedCard =>
   this.setState({encryptedCard}),
 )
+```
 
 ### Screenshot
-
 iOS
-![](https://github.com/chocnut/RNAdyenCse/blob/master/example/images/ios.gif)
+
+
+![iOS](https://github.com/chocnut/RNAdyenCse/blob/master/example/images/ios.gif)
 
 Android
-![](https://github.com/chocnut/RNAdyenCse/blob/master/example/images/android.gif)
+
+
+![Android](https://github.com/chocnut/RNAdyenCse/blob/master/example/images/android.gif)
