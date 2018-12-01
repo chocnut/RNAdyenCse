@@ -1,6 +1,6 @@
 
 #import "RNAdyenCse.h"
-#import "AdyenCSE/AdyenCSE.h"
+#import <AdyenCSE.h>
 
 @implementation RNAdyenCse
 
