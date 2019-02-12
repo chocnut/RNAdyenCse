@@ -13,7 +13,7 @@
   "license": "MIT",
   "peerDependencies": {},
   "dependencies": {
-    "npm": "^5.7.1"
+    "npm": "^6.7.0"
   },
   "repository": {
     "type": "git",
