@@ -11,8 +11,9 @@ Pod::Spec.new do |s|
   s.author             = { "author" => "pindiola@gmail.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/chocnut/RNAdyenCse.git", :tag => "master" }
-  s.source_files  = "RNAdyenCse/**/*.{h,m}"
+  s.source_files  = "*.{h,m}"
   s.requires_arc = true
 
+  s.dependency 'React'
   s.dependency "AdyenCSE"
 end
