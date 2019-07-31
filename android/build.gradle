@@ -37,7 +37,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:+'
-    compile 'com.adyen.cse:adyen-cse:1.0.5'
+    implementation 'com.facebook.react:react-native:+'
+    implementation 'com.adyen.cse:adyen-cse:1.0.5'
 }
   
