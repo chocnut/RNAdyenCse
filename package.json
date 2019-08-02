@@ -1,14 +1,12 @@
 {
   "name": "react-native-adyen-cse",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "React Native Adyen CSE",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "adyen, adyencse, react-native"
-  ],
+  "keywords": ["adyen, adyencse, react-native"],
   "author": "Peter A. Indiola <pindiola@gmail.com>",
   "license": "MIT",
   "peerDependencies": {},
