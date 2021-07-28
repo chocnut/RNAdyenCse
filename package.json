@@ -10,11 +10,11 @@
   "author": "Peter A. Indiola <pindiola@gmail.com>",
   "license": "MIT",
   "peerDependencies": {},
-  "dependencies": {
-    "npm": "^5.7.1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/chocnut/RNAdyenCse"
+  },
+  "engines": {
+    "npm": "^5.7.1"
   }
 }
